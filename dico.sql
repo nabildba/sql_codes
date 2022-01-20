@@ -9,7 +9,7 @@ select  * from dictionary;-- toutes les vues statiques de la bases de données
 
 select  * from dba_tables;--toutes les tables de la base de données
 select  * from all_tables;--toutes les tables accessibles par l'utilisateur
-select  * from use_tables;--toutes les tables dans le schema de l'utilisateur
+select  * from user_tables;--toutes les tables dans le schema de l'utilisateur
 --
 select  * from all_tables where owner ='HR';
 --
